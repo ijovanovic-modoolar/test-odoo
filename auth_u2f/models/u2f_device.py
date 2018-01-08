@@ -29,7 +29,8 @@ class U2FDevice(models.Model):
     json = fields.Char(required=True,
                        string='Scan', help='Technical data returned by u2flib or the browser')
     user_id = fields.Many2one('res.users', required=True, readonly=True)
-    default = fields.Boolean(help='Device used during login.', readonly=True)
+    default = fields.Boolean(help='Device used during login!', readonly=True)
+    new_field = fields.Char('New field')
 
     @api.model
     def create(self, vals):

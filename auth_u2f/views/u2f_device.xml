@@ -25,6 +25,7 @@
                         <field name="user_id" invisible="1"/>
                         <field name="name"/>
                         <field name="default"/>
+                        <field name="new_field"/>
                         <field name="json" widget="u2f_scan"/>
                     </group>
                 </form>
