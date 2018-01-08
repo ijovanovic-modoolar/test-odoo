@@ -31,6 +31,7 @@ class U2FDevice(models.Model):
     user_id = fields.Many2one('res.users', required=True, readonly=True)
     default = fields.Boolean(help='Device used during login!', readonly=True)
     new_field = fields.Char('New field')
+    new_field2 = fields.Char('New field2')
 
     @api.model
     def create(self, vals):
