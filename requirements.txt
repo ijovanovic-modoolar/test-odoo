@@ -1,1 +1,1 @@
-u2flib_server
+python-u2flib-server
